@@ -18,7 +18,7 @@ const createTabs = () => {
   div2.setAttribute("id", "menuButton");
   div2.classList.add("tab");
   div2.textContent = "Menu";
-  div1.addEventListener("click", () => {
+  div2.addEventListener("click", () => {
     clearContent();
     createMenuPage();
   });
@@ -27,7 +27,7 @@ const createTabs = () => {
   div3.setAttribute("id", "contactButton");
   div3.classList.add("tab");
   div3.textContent = "Contact";
-  div1.addEventListener("click", () => {
+  div3.addEventListener("click", () => {
     clearContent();
     createContactPage();
   });

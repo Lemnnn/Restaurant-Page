@@ -13,11 +13,11 @@ const createMenuPage = () => {
   menuList.appendChild(menuItem1);
 
   const menuItem2 = document.createElement("li");
-  menuItem1.textContent = "Bolognesa";
+  menuItem2.textContent = "Bolognesa";
   menuList.appendChild(menuItem2);
 
   const menuItem3 = document.createElement("li");
-  menuItem1.textContent = "Alfredo";
+  menuItem3.textContent = "Alfredo";
   menuList.appendChild(menuItem3);
 
   pageContent.appendChild(heading);

@@ -4,7 +4,7 @@ const createContactPage = () => {
   pageContent.classList.add("pageContent");
 
   const form = document.createElement("form");
-  form.classList.add("contactFrom");
+  form.classList.add("contactForm");
 
   const headingInput = document.createElement("input");
   headingInput.type = "text";
@@ -26,7 +26,7 @@ const createContactPage = () => {
   submitButton.value = "Submit";
   form.appendChild(submitButton);
 
-  pageContent.appendChild(from);
+  pageContent.appendChild(form);
   content.appendChild(pageContent);
 };
 
